@@ -16,6 +16,10 @@ export default function Education() {
             <p className="text-gray-400">
               Master of Science in Computer Science (GPA: 4.00/4.00) · Tempe, AZ, USA
             </p>
+            <p className="text-gray-500 text-sm leading-relaxed">
+              Relevant coursework: Data Mining, Statistical Machine Learning, Data Visualization,
+              Semantic Web Mining, Knowledge Representation
+            </p>
           </div>
           <div>
             <div className="flex justify-between items-baseline mb-2">
@@ -26,8 +30,8 @@ export default function Education() {
               Bachelor of Technology in Computer Science and Engineering (GPA: 3.84/4.00) · Vellore, TN, India
             </p>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Relevant coursework: Algorithms, Data Structures, Database Systems, Object-Oriented Programming,
-              Web Mining, Machine Learning, Software Engineering, Web Development
+              Relevant coursework: Data Structures, Algorithms, Database Systems, Object-Oriented Programming,
+              Web Development
             </p>
           </div>
         </div>

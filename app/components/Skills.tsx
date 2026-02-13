@@ -4,7 +4,7 @@ const skills = {
   "Programming Languages": ["Python", "Java", "SQL", "C", "C++", "JavaScript", "R"],
   "Cloud, DevOps & Databases": ["AWS", "Git", "Docker", "Kubernetes", "Terraform", "CI/CD", "Splunk", "MySQL", "PostgreSQL", "NoSQL"],
   "Web Development": ["HTML5", "CSS3", "Flask", "Django", "REST APIs", "Vue.js", "Node.js"],
-  "ML & Data Tools": ["Scikit-learn", "TensorFlow", "NumPy", "Pandas", "OpenCV"],
+  "ML & Data Tools": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Keras", "OpenCV"],
 };
 
 export default function Skills() {

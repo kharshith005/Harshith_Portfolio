@@ -1,20 +1,16 @@
-# Harshith Kurakula - Portfolio
+# Harshith Kurakula | Portfolio
 
-This is the source code for my personal portfolio website, built with Next.js and Tailwind CSS.
+Source code for Harshith Kurakula’s personal portfolio website.
 
-## Getting Started
+## Features
 
-To run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Single-page portfolio layout with sections for About, Education, Experience, Projects, and Skills
+- Resume download link
+- Responsive, accessible layout
 
 ## Tech Stack
 
-*   [Next.js](https://nextjs.org/)
-*   [React](https://reactjs.org/)
-*   [Tailwind CSS](https://tailwindcss.com/)
-*   [TypeScript](https://www.typescriptlang.org/)
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
