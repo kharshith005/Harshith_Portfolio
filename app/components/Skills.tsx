@@ -1,10 +1,43 @@
 import { Database, Cloud, Code, Terminal, Cpu, Zap } from "lucide-react";
 
 const skills = {
-  "Programming Languages": ["Python", "Java", "SQL", "C", "C++", "JavaScript", "R"],
-  "Cloud, DevOps & Databases": ["AWS", "Git", "Docker", "Kubernetes", "Terraform", "CI/CD", "Splunk", "MySQL", "PostgreSQL", "NoSQL"],
-  "Web Development": ["HTML5", "CSS3", "Flask", "Django", "REST APIs", "Vue.js", "Node.js"],
-  "ML & Data Tools": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Keras", "OpenCV"],
+  "Programming Languages": ["Python", "Java", "SQL", "C", "C++", "JavaScript", "TypeScript", "R"],
+  "Cloud, DevOps & Databases": [
+    "AWS",
+    "GCP",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "Splunk",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+  ],
+  "Web Development": [
+    "HTML5",
+    "CSS3",
+    "Flask",
+    "Django",
+    "REST APIs",
+    "Vue.js",
+    "Node.js",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+  ],
+  "ML & Data Tools": [
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "Keras",
+    "PyTorch",
+    "OpenCV",
+    "Tableau",
+    "Grafana",
+  ],
 };
 
 export default function Skills() {

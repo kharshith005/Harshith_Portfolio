@@ -27,7 +27,7 @@ export default function Education() {
               <span className="text-sm font-mono text-gray-500">Jul 2018 – Jun 2022</span>
             </div>
             <p className="text-gray-400 mb-2">
-              Bachelor of Technology in Computer Science and Engineering (GPA: 3.84/4.00) · Vellore, TN, India
+              Bachelor of Technology in Computer Science and Engineering (GPA: 3.84/4.00) · Vellore, Tamil Nadu, India
             </p>
             <p className="text-gray-500 text-sm leading-relaxed">
               Relevant coursework: Data Structures, Algorithms, Database Systems, Object-Oriented Programming,

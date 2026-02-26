@@ -15,7 +15,7 @@ export default function Experience() {
             <span className="text-sm font-mono text-gray-500 italic">Apr 2025 – Jul 2025</span>
           </div>
           <p className="text-blue-500 font-bold text-sm mb-4 uppercase tracking-wider">
-            Chargebee Technologies · Chennai, TN, India
+            Chargebee Technologies · Chennai, Tamil Nadu, India
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
@@ -38,7 +38,7 @@ export default function Experience() {
             <span className="text-sm font-mono text-gray-500 italic">Aug 2022 – Mar 2025</span>
           </div>
           <p className="text-blue-500 font-bold text-sm mb-4 uppercase tracking-wider">
-            Chargebee Technologies · Chennai, TN, India
+            Chargebee Technologies · Chennai, Tamil Nadu, India
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
@@ -69,13 +69,13 @@ export default function Experience() {
             <span className="text-sm font-mono text-gray-500 italic">Jan 2022 – Jul 2022</span>
           </div>
           <p className="text-blue-500 font-bold text-sm mb-4 uppercase tracking-wider">
-            Chargebee Technologies · Chennai, TN, India
+            Chargebee Technologies · Chennai, Tamil Nadu, India
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
               Engineered a centralized observability dashboard integrating Splunk, ELK Stack, and
-              database logs, enabling proactive incident detection, reducing MTTR by 25%, and
-              sustaining 99.9% availability.
+              database logs, enabling proactive incident detection, reducing Mean Time to Resolve
+              (MTTR) by 25%, and sustaining 99.9% availability.
             </li>
             <li>
               Spearheaded infrastructure provisioning automation using AWS RDS, DynamoDB, and
