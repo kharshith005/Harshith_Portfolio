@@ -50,14 +50,14 @@ export default function Experience() {
               inconsistencies, reducing manual debugging time by 30% and improving production reliability.
             </li>
             <li>
-              Implemented API support for an internal database migration tool to automate schema
-              changes after RDS provisioning and sharding, reducing manual intervention by 25%
-              and improving system efficiency and reliability.
+              Designed a multi-threaded Java job scheduler to parallelize schema migrations across
+              12+ concurrent RDS instances, automating post-provisioning and sharding changes while
+              cutting total runtime by 60% and manual intervention by 25%.
             </li>
             <li>
-              Collaborated with engineering, platform, and product teams to embed SRE best practices,
-              reducing incident recurrence by 30%, improving system stability, and enabling
-              scalable multi-region deployments.
+              Scaled SRE best practices across cross-functional engineering, platform, and product
+              teams by institutionalizing incident post-mortems and runbooks, reducing incident
+              recurrence by 30% and enabling reliable, scalable multi-region deployments.
             </li>
           </ul>
         </div>

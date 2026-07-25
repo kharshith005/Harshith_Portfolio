@@ -11,7 +11,7 @@ export default function Education() {
           <div>
             <div className="flex justify-between items-baseline mb-2">
               <h3 className="text-xl font-bold text-gray-200">Arizona State University</h3>
-              <span className="text-sm font-mono text-gray-500">Aug 2025 – Present</span>
+              <span className="text-sm font-mono text-gray-500">Aug 2025 – Dec 2026</span>
             </div>
             <p className="text-gray-400">
               Master of Science in Computer Science (GPA: 4.00/4.00) · Tempe, AZ, USA

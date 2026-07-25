@@ -26,7 +26,7 @@ export default function Nav() {
           ))}
         </div>
         <div className="text-xs uppercase tracking-[0.2em] text-slate-500">
-          Open to Summer 2026
+          Open to Full-Time 2027
         </div>
       </nav>
     </header>

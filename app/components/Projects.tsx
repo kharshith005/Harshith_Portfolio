@@ -9,6 +9,29 @@ export default function Projects() {
       <div className="space-y-12">
         <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
           <div className="flex justify-between items-start mb-6">
+            <h3 className="text-2xl font-bold text-gray-200">Multi-Agent Travel Itinerary Planner</h3>
+          </div>
+          <ul className="list-disc list-inside text-gray-400 leading-relaxed mb-6 space-y-2">
+            <li>
+              Architected an 8-component multi-agent LLM system using LangGraph, coordinating
+              specialized agents to generate constraint-aware, multi-day travel itineraries, raising
+              final pass rate from 4.4% to 31% over a single-agent GPT-4 Turbo baseline on identical data.
+            </li>
+            <li>
+              Built a two-stage repair pipeline (mechanical pre-repair + up to 3 LLM-driven rounds)
+              with agent-attribution logging for targeted routing, achieving 100% delivery and 94%
+              commonsense constraint satisfaction across 180 benchmark queries at 4.3 LLM calls/query.
+            </li>
+          </ul>
+          <div className="flex gap-3">
+            {['Python', 'LangGraph', 'Streamlit', 'Vertex AI'].map(tag => (
+              <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
+            ))}
+          </div>
+        </div>
+
+        <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
+          <div className="flex justify-between items-start mb-6">
             <h3 className="text-2xl font-bold text-gray-200">Multimodal Image Retrieval System</h3>
           </div>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed mb-6 space-y-2">
@@ -24,7 +47,7 @@ export default function Projects() {
           </ul>
           <div className="flex gap-3">
             {['Python', 'Keras', 'Flask', 'Vue.js'].map(tag => (
-              <span key={tag} className="px-3 py-1 bg-gray-800 text-gray-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
+              <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
             ))}
           </div>
         </div>

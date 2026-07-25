@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-4 text-slate-200">Let’s Connect</h2>
         <p className="text-slate-400 mb-8">
-          Open to Summer 2026 software engineering internships.
+          Open to full-time software engineering roles starting 2027.
           Reach out for collaboration or project conversations.
         </p>
         <div className="flex justify-center gap-8 mb-12">

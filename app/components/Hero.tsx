@@ -11,8 +11,7 @@ export default function Hero() {
       <p className="max-w-2xl text-base md:text-lg text-slate-400 leading-relaxed mb-10">
         I build reliable backend systems and automation tooling for high-scale platforms,
         with hands-on experience in distributed systems, database performance, and cloud
-        reliability engineering. Actively seeking Summer 2026 software engineering
-        internships.
+        reliability engineering. Open to full-time Software Engineering roles starting 2027.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <a
