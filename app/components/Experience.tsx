@@ -19,14 +19,14 @@ export default function Experience() {
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
-              Optimized database connection management by consolidating schema-level connection
-              pools into a shared pool per AWS RDS instance, reducing connection spikes and idle
-              connections by 20% while improving resource utilization, scalability, and stability.
+              Architected a unified AWS RDS connection pooling system, consolidating schema-level
+              pools into a single shared pool per instance, reducing idle connection overhead by 20%
+              and improving throughput, utilization, and stability across production microservices.
             </li>
             <li>
-              Automated configuration onboarding through a centralized database configuration
-              management system, enabling consistent configuration across microservices and
-              reducing manual effort by 40% during infrastructure provisioning.
+              Drove a centralized database configuration management platform enforcing consistent
+              configuration propagation across all microservices, reducing manual provisioning
+              effort by 40% and cutting environment-drift incidents during infrastructure onboarding.
             </li>
           </ul>
         </div>
@@ -42,17 +42,20 @@ export default function Experience() {
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
-              Led AWS RDS upgrade initiatives using Blue-Green deployments to achieve near-zero
-              downtime, preserve data integrity, and reduce service disruption by 90%.
+              Led AWS RDS Blue-Green deployment upgrade initiatives across critical production
+              databases, coordinating planning, execution, and validation to achieve near-zero
+              downtime, reduce service disruption by 90%, and preserve complete data integrity
+              across systems.
             </li>
             <li>
-              Built an automated schema comparison tool in Java and SQL to detect cross-environment
-              inconsistencies, reducing manual debugging time by 30% and improving production reliability.
+              Engineered an automated schema comparison tool in Java and SQL to detect database
+              inconsistencies across environments, capturing all schema mismatches while reducing
+              manual debugging time by 30% and improving overall production reliability.
             </li>
             <li>
-              Designed a multi-threaded Java job scheduler to parallelize schema migrations across
-              12+ concurrent RDS instances, automating post-provisioning and sharding changes while
-              cutting total runtime by 60% and manual intervention by 25%.
+              Launched an internal API feature for a database migration tool to automate schema
+              changes following RDS provisioning and sharding activities, reducing manual
+              intervention by 25% and improving system efficiency and reliability.
             </li>
             <li>
               Scaled SRE best practices across cross-functional engineering, platform, and product
@@ -73,14 +76,14 @@ export default function Experience() {
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
-              Engineered a centralized observability dashboard integrating Splunk, ELK Stack, and
-              database logs, enabling proactive incident detection, reducing Mean Time to Resolve
-              (MTTR) by 25%, and sustaining 99.9% availability.
+              Engineered a centralized observability and monitoring dashboard integrating Splunk,
+              ELK Stack, and database logs, enabling proactive incident detection and reducing Mean
+              Time to Resolve (MTTR) by 25% while maintaining 99.9% system availability.
             </li>
             <li>
-              Spearheaded infrastructure provisioning automation using AWS RDS, DynamoDB, and
-              CloudFormation, reducing manual configuration effort by 40%, accelerating deployment
-              time by 30%, and improving cross-environment reliability.
+              Automated infrastructure provisioning across AWS RDS, DynamoDB, and CloudFormation,
+              reducing manual configuration effort by 40%, accelerating deployment time by 30%, and
+              improving cross-environment reliability and consistency.
             </li>
           </ul>
         </div>

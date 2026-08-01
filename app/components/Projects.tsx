@@ -36,13 +36,14 @@ export default function Projects() {
           </div>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed mb-6 space-y-2">
             <li>
-              Designed and implemented a multimodal deep learning retrieval pipeline using
+              Designed and implemented a multimodal deep learning retrieval pipeline leveraging
               ResNet (CNN) for visual feature extraction and LSTM-based text embeddings, achieving
-              80–85% retrieval accuracy by aligning visual and semantic representations.
+              80–85% retrieval accuracy by effectively aligning visual and semantic representations.
             </li>
             <li>
-              Built an end-to-end image–text retrieval workflow integrating advanced text
-              preprocessing and image feature analysis, improving search relevance over baseline models.
+              Built an end-to-end image–text retrieval workflow with a REST API backend and Vue.js
+              frontend, integrating advanced text preprocessing and image feature analysis to
+              significantly outperform traditional baseline models in search relevance and precision.
             </li>
           </ul>
           <div className="flex gap-3">

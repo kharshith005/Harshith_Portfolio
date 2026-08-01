@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Harshith Kurakula | Portfolio",
-  description: "Harshith Kurakula portfolio. MSCS student at ASU seeking Summer 2026 internships.",
+  description: "Harshith Kurakula portfolio. MSCS student at ASU (Dec 2026) seeking full-time software engineering roles starting 2027.",
   icons: {
     icon: {
       url: "/hk_logo.svg",

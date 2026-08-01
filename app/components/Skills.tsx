@@ -20,6 +20,7 @@ const skills = {
     "CSS3",
     "Flask",
     "Django",
+    "FastAPI",
     "REST APIs",
     "Vue.js",
     "Node.js",
