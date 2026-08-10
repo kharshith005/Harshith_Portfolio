@@ -41,13 +41,63 @@ export default function Projects() {
               80–85% retrieval accuracy by effectively aligning visual and semantic representations.
             </li>
             <li>
-              Built an end-to-end image–text retrieval workflow with a REST API backend and Vue.js
+              Built an end-to-end image–text retrieval workflow with a FastAPI backend and React
               frontend, integrating advanced text preprocessing and image feature analysis to
               significantly outperform traditional baseline models in search relevance and precision.
             </li>
           </ul>
           <div className="flex gap-3">
-            {['Python', 'Keras', 'Flask', 'Vue.js'].map(tag => (
+            {['Python', 'Keras', 'FastAPI', 'React'].map(tag => (
+              <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
+            ))}
+          </div>
+        </div>
+
+        <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
+          <div className="flex justify-between items-start mb-6">
+            <h3 className="text-2xl font-bold text-gray-200">Event-Sourced Order System with Verified Rebuildable Read Models</h3>
+          </div>
+          <ul className="list-disc list-inside text-gray-400 leading-relaxed mb-6 space-y-2">
+            <li>
+              The Kafka log is the source of truth and Postgres only a derived view, so a single
+              admin call truncates the tables, rewinds the consumer group to offset 0, and replays
+              every event, returning a read model that matches byte for byte on a content checksum
+              rather than merely a row count.
+            </li>
+            <li>
+              Commands are keyed by order ID, so every write for an order lands on one partition
+              owned by exactly one consumer, which replaces the distributed lock entirely;
+              simultaneous writes resolve to one commit and one HTTP 409 carrying the current
+              version, and a transactional inbox keeps exactly once intact where Kafka&apos;s
+              guarantee stops at Postgres.
+            </li>
+          </ul>
+          <div className="flex gap-3">
+            {['Go', 'Kafka', 'PostgreSQL'].map(tag => (
+              <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
+            ))}
+          </div>
+        </div>
+
+        <div className="p-6 rounded-lg bg-gray-900 border border-gray-800">
+          <div className="flex justify-between items-start mb-6">
+            <h3 className="text-2xl font-bold text-gray-200">Optimized Round Robin CPU Scheduler</h3>
+          </div>
+          <ul className="list-disc list-inside text-gray-400 leading-relaxed mb-6 space-y-2">
+            <li>
+              Designed an optimized Round Robin scheduling algorithm that orders the ready queue by
+              a weighted factor (20% arrival time, 30% burst time, 50% priority) and derives the time
+              quantum dynamically from mean remaining burst time, eliminating the fixed-slice tuning
+              that drives context-switch overhead in standard RR.
+            </li>
+            <li>
+              Built a CLI simulation harness to benchmark both schedulers side by side across
+              configurable process sets, reducing average turnaround time by 9% (15.3 → 14.0 units)
+              and average waiting time by 14% (9.3 → 8.0) versus standard Round Robin.
+            </li>
+          </ul>
+          <div className="flex gap-3">
+            {['C/C++'].map(tag => (
               <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
             ))}
           </div>

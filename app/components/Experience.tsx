@@ -76,9 +76,9 @@ export default function Experience() {
           </p>
           <ul className="list-disc list-inside text-gray-400 leading-relaxed space-y-2">
             <li>
-              Engineered a centralized observability and monitoring dashboard integrating Splunk,
-              ELK Stack, and database logs, enabling proactive incident detection and reducing Mean
-              Time to Resolve (MTTR) by 25% while maintaining 99.9% system availability.
+              Engineered a centralized observability and monitoring dashboard in Python integrating
+              Splunk, ELK Stack, and database logs, enabling proactive incident detection and
+              reducing Mean Time to Resolve (MTTR) by 25% while maintaining 99.9% system availability.
             </li>
             <li>
               Automated infrastructure provisioning across AWS RDS, DynamoDB, and CloudFormation,
