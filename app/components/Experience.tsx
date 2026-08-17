@@ -48,7 +48,7 @@ export default function Experience() {
               across systems.
             </li>
             <li>
-              Engineered an automated schema comparison tool in Java and SQL to detect database
+              Engineered an automated schema comparison tool to detect database
               inconsistencies across environments, capturing all schema mismatches while reducing
               manual debugging time by 30% and improving overall production reliability.
             </li>
