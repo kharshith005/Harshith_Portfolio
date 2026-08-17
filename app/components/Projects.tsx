@@ -73,7 +73,7 @@ export default function Projects() {
             </li>
           </ul>
           <div className="flex gap-3">
-            {['Go', 'Kafka', 'PostgreSQL'].map(tag => (
+            {['Kafka', 'PostgreSQL'].map(tag => (
               <span key={tag} className="px-3 py-1 bg-blue-900/50 text-blue-400 rounded-full text-[10px] font-bold uppercase">{tag}</span>
             ))}
           </div>
